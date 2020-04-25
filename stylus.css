@@ -3,24 +3,31 @@
     background-color: #111;
 }
 
-a:link {
+
+body a:link {
     cursor: pointer;
     color: #6D9BF1;
 }
 
 /* visited link */
-a:visited {
+body a:visited {
   color: #6D9BF1;
 }
 
 /* mouse over link */
-a:hover {
+body a:hover {
   color: #6D9BF1;
 }
 
 /* selected link */
-a:active {
+body a:active {
   color: #6D9BF1;
+}
+
+body .crossreference {
+    cursor: pointer;
+    color: #6D9BF1;
+    font-weight: 700;
 }
 
 /* Main Page */
@@ -66,7 +73,7 @@ a:active {
 }
 
 .alphabet__node--huwT8 {
-    border: 1px solid #ccc;
+    border: 1px solid transparent;
     color: #ccc;
     border-radius: 50%;
     width: 24px;
@@ -110,8 +117,72 @@ body {
     user-select: none;
 }
 
-.h3_title {
+body .h3_title {
     color: #ccc;
     font-size: 16px;
     font-weight: 700;
+}
+
+
+.word__name--TTbAA {
+    margin: 0 0 5px;
+    color: #ccc;
+    font-size: 28px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+.word__defination--2q7ZH, .word_summary--1nri6 {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.socialShare__title--34iP2 {
+    text-align: left;
+    color: #ccc;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.alphabetical__word--3UeP2 {
+    font-size: 16px;
+    text-align: left;
+    color: #6D9BF1;
+    margin: 5px 5px 5px 0;
+    word-break: break-word;
+}
+
+.related__word--3Si0N {
+    margin: 5px 10px 5px 0;
+    padding: 4px 7px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #6D9BF1;
+    font-size: 16px;
+}
+
+.word_4pc--2SZw8 {
+    cursor: text;
+    border: 1px solid #222;
+    padding: 20px;
+    background: #222;
+}
+
+.footer__info--3VNMU p, .footer__link--1RSEJ p {
+    padding: 5px 0;
+    color: #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ccc;
+    font-weight: 500;
+}
+
+blockquote {
+    margin: 1em 0;
+        margin-top: 1em;
+    padding-left: 10px;
+    border-left: 6px solid #111;
 }
