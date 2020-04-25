@@ -1,0 +1,105 @@
+.header--1Mejf {
+    padding: 16px;
+    background-color: #111;
+}
+
+/* Main Page */
+.container--1mazc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #111;
+    font-size: 14px;
+}
+
+.desc {
+    text-align: left;
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer__info--3VNMU {
+    height: auto;
+    color: #ccc;
+    background-color: #222;
+}
+
+.footer__info--3VNMU a, .footer__link--1RSEJ a {
+    padding: 5px 0;
+    color: #ccc;
+}
+
+.alphabet--3sMXd {
+    width: 100%;
+    background-color: #222;
+    border-bottom: #111;
+}
+
+.alphabet__node--huwT8 {
+    border: 1px solid #ccc;
+    color: #ccc;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+
+    text-decoration: #6D9BF1;
+    color: #6D9BF1;
+    outline: none;
+    background: transparent;
+}
+
+.extensionHint--GXbB8 {
+    height: 64px;
+    margin-top: -64px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    text-align: center;
+    background-color: #222;
+    font-size: 16px;
+    line-height: 64px;
+}
+
+body {
+    font-family: Helvetica Neue For Number,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.ant-pagination-item a {
+    text-decoration: none;
+    color: #ccc;
+    transition: none;
+    margin: 0 6px;
+}
+
+.ant-pagination-next a, .ant-pagination-prev a {
+    color: #ccc;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.h3_title {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 700;
+}
